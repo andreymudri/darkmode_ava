@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "AVA Dark Mode",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ],
+  "content_scripts": [{
+    "matches": ["https://pucpr.grupoa.education/*"],
+    "js": ["content.js"]
+  }]
+}
